@@ -70,7 +70,7 @@ int main(int argc, char** argv)
   // Do the main routine here
 }
 
-/*
+
 #include "main.h"
 
 namespace po = boost::program_options;
