@@ -2,13 +2,19 @@ cmake_minimum_required(VERSION 3.16.3)
 project(cppBook VERSION 1.0.0)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_1)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_2)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_3)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_4)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_5)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_1_proj_6)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib/calculator)
 
 set (LESSON_ID_LIST 
     ${CHAP_1_PROJ_1_LESSON_NAME}
+    ${CHAP_1_PROJ_2_LESSON_NAME}
     ${CHAP_1_PROJ_3_LESSON_NAME}
+    ${CHAP_1_PROJ_4_LESSON_NAME}
+    ${CHAP_1_PROJ_5_LESSON_NAME}
     ${CHAP_1_PROJ_6_LESSON_NAME}
 )
 
@@ -17,7 +23,7 @@ if (NOT DEFINED CACHE{LESSON_ID})
     set(LESSON_ID ${CHAP_1_PROJ_1_LESSON_NAME} CACHE STRING "Project identification to be build")    
     message (WARNING "No project ID lesson set. Using ${CHAP_1_PROJ_1_LESSON_NAME} as default.\                       
                      \n   To choose another lesson, use -D flag\
-                     \n   Ex: $ cmake -DLESSON_ID=chap_1_proj_2_lesson")
+                     \n   Ex: $ cmake -DLESSON_ID=chap_1_proj_2_lesson ..")
 else()
     # Dummy line to avoid LESSON_IN unused warning
     set (LESSON_ID)
@@ -30,7 +36,7 @@ else()
     if (FIND_LESSON_ID_LIST_INDEX GREATER_EQUAL 0)
         message(STATUS "Building $CACHE{LESSON_ID} project\
                        \n   To choose another lesson, use -D flag\
-                       \n   Ex: $ cmake -DLESSON_ID=chap_1_proj_2_lesson")
+                       \n   Ex: $ cmake -DLESSON_ID=chap_1_proj_2_lesson ..")
     
     # is not valid
     else()
@@ -44,10 +50,21 @@ if ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_1_LESSON_NAME})
     set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_1_LESSON_SOURCE_FILES})
     set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_1_LESSON_INCLUDE_DIRECTORY_PATH}) 
     set (LESSON_LIBS lib_calculator)
+elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_2_LESSON_NAME})
+    set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_2_LESSON_SOURCE_FILES})
+    set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_2_LESSON_INCLUDE_DIRECTORY_PATH}) 
+    set (LESSON_LIBS lib_calculator)
 elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_3_LESSON_NAME})
     set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_3_LESSON_SOURCE_FILES})
     set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_3_LESSON_INCLUDE_DIRECTORY_PATH}) 
     set (LESSON_LIBS lib_calculator)
+elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_4_LESSON_NAME})
+    set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_4_LESSON_SOURCE_FILES})
+    set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_4_LESSON_INCLUDE_DIRECTORY_PATH}) 
+    set (LESSON_LIBS lib_calculator)
+elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_5_LESSON_NAME})
+    set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_5_LESSON_SOURCE_FILES})
+    set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_5_LESSON_INCLUDE_DIRECTORY_PATH}) 
 elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_1_PROJ_6_LESSON_NAME})
     set (LESSON_SOURCE_FILES ${CHAP_1_PROJ_6_LESSON_SOURCE_FILES})
     set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_1_PROJ_6_LESSON_INCLUDE_DIRECTORY_PATH}) 
