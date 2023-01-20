@@ -40,7 +40,7 @@ int main(int ac, char* av[]){
     std::cin >> installment;
 
     for(i = 0; openAmount > 0; i++){
-        monthInterestAmount = calculator::PercentValue(1.5,openAmount);
+        monthInterestAmount = calculator::PercentValue(monthlyInterest,openAmount);
         totalInterestPaid += monthInterestAmount;
         openAmount -= installment - monthInterestAmount;
     }

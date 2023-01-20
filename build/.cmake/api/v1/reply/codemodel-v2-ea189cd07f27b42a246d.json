@@ -1,0 +1,283 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "chap_1_proj_1",
+					"jsonFile" : "directory-chap_1_proj_1-bbce1c4ff42af48103bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_1"
+				},
+				{
+					"build" : "chap_1_proj_2",
+					"jsonFile" : "directory-chap_1_proj_2-0208b5c60e45ff6ae781.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_2"
+				},
+				{
+					"build" : "chap_1_proj_3",
+					"jsonFile" : "directory-chap_1_proj_3-b732111588e71c16a8fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_3"
+				},
+				{
+					"build" : "chap_1_proj_4",
+					"jsonFile" : "directory-chap_1_proj_4-a0acf00ba4bbcb78f139.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_4"
+				},
+				{
+					"build" : "chap_1_proj_5",
+					"jsonFile" : "directory-chap_1_proj_5-1c4314bd00c086a00745.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_5"
+				},
+				{
+					"build" : "chap_1_proj_6",
+					"jsonFile" : "directory-chap_1_proj_6-0f1e809f514995f60524.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_1_proj_6"
+				},
+				{
+					"build" : "chap_2_proj_1",
+					"jsonFile" : "directory-chap_2_proj_1-c79740a7095e708e335e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_2_proj_1"
+				},
+				{
+					"build" : "chap_2_proj_2",
+					"jsonFile" : "directory-chap_2_proj_2-6bcc3af7b6a8f9de889e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_2_proj_2"
+				},
+				{
+					"build" : "chap_3_proj_1",
+					"jsonFile" : "directory-chap_3_proj_1-a9a30acc6009d75169ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_1"
+				},
+				{
+					"build" : "chap_3_proj_2",
+					"jsonFile" : "directory-chap_3_proj_2-a0d85f5319b45cf22f20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_2"
+				},
+				{
+					"build" : "chap_3_proj_3",
+					"jsonFile" : "directory-chap_3_proj_3-681e350a3a15ddcbeb2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_3"
+				},
+				{
+					"build" : "chap_3_proj_4",
+					"jsonFile" : "directory-chap_3_proj_4-757882631e4467584e74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_4"
+				},
+				{
+					"build" : "chap_3_proj_5",
+					"jsonFile" : "directory-chap_3_proj_5-9e3b830808990c41acc3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_5"
+				},
+				{
+					"build" : "chap_3_proj_6",
+					"jsonFile" : "directory-chap_3_proj_6-68e5e31c28ec52eed016.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_6"
+				},
+				{
+					"build" : "chap_3_proj_7",
+					"jsonFile" : "directory-chap_3_proj_7-b69a8d7a9c678d445709.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_3_proj_7"
+				},
+				{
+					"build" : "lib/calculator",
+					"jsonFile" : "directory-lib.calculator-622ab34c09ec1acfdd09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/calculator",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"name" : "cppBook",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chap_3_proj_6_lesson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap_3_proj_6_lesson-160f59bea36f35ab166a.json",
+					"name" : "chap_3_proj_6_lesson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "lib_calculator::@37fc45b43a3af13d1029",
+					"jsonFile" : "target-lib_calculator-f36155606c58c8d93042.json",
+					"name" : "lib_calculator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rafaeldelpino/Desktop/CppLearning/build",
+		"source" : "/home/rafaeldelpino/Desktop/CppLearning"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
