@@ -755,7 +755,40 @@
 			"path" : "chap_3_proj_7/CMakeLists.txt"
 		},
 		{
+			"path" : "chap_4_proj_1/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_2/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_3/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_4/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_5/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_6/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_7/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_8/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_9/CMakeLists.txt"
+		},
+		{
+			"path" : "chap_4_proj_10/CMakeLists.txt"
+		},
+		{
 			"path" : "lib/calculator/CMakeLists.txt"
+		},
+		{
+			"path" : "lib/ihm/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

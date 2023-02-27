@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "17"
+			"value" : "28"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1191,7 +1191,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "chap_3_proj_6_lesson"
+			"value" : "chap_4_proj_10_lesson"
 		},
 		{
 			"name" : "cppBook_BINARY_DIR",
