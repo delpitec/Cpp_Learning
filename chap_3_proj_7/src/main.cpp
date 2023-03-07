@@ -3,7 +3,7 @@
 /* Chapter 3 | Project 7                                                                          */
 /* Author: Rafael Del Pino                                                                        */
 /*                                                                                                */
-/* Meteorologists transmit an index called the wind chill factor When it's cold. It takes into    */
+/* Meteorologists transmit an index called the wind chill factor when it's cold. It takes into    */
 /* account wind speed and temperature. The index provides a measure of the cooling effect of      */
 /* wind at a given air temperature. This index can be approximated by the following formula:      */
 /*                                                                                                */

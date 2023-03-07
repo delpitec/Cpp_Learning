@@ -2,6 +2,7 @@
 /*                                                                                                */
 /* Chapter 1 | Project 5                                                                          */
 /* Author: Rafael Del Pino                                                                        */
+/*                                                                                                */
 /* Write a program that determines whether a conference room is violating legal fire regulations  */
 /* regarding its maximum capacity. The program will read the maximum capacity of the room and the */
 /* number of people who will attend the conference. If the number of people is less than or equal */
@@ -15,7 +16,6 @@
 
 int main(int argc, char** argv)
 {
-
     unsigned int maxCapacity = 0;
     unsigned int currOccupancy = 0;
 

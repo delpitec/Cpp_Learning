@@ -34,9 +34,10 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28
 					],
-					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -50,7 +51,7 @@
 				},
 				{
 					"build" : "chap_1_proj_1",
-					"jsonFile" : "directory-chap_1_proj_1-bbce1c4ff42af48103bb.json",
+					"jsonFile" : "directory-chap_1_proj_1-Debug-bbce1c4ff42af48103bb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -61,7 +62,7 @@
 				},
 				{
 					"build" : "chap_1_proj_2",
-					"jsonFile" : "directory-chap_1_proj_2-0208b5c60e45ff6ae781.json",
+					"jsonFile" : "directory-chap_1_proj_2-Debug-0208b5c60e45ff6ae781.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -72,7 +73,7 @@
 				},
 				{
 					"build" : "chap_1_proj_3",
-					"jsonFile" : "directory-chap_1_proj_3-b732111588e71c16a8fc.json",
+					"jsonFile" : "directory-chap_1_proj_3-Debug-b732111588e71c16a8fc.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -83,7 +84,7 @@
 				},
 				{
 					"build" : "chap_1_proj_4",
-					"jsonFile" : "directory-chap_1_proj_4-a0acf00ba4bbcb78f139.json",
+					"jsonFile" : "directory-chap_1_proj_4-Debug-a0acf00ba4bbcb78f139.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -94,7 +95,7 @@
 				},
 				{
 					"build" : "chap_1_proj_5",
-					"jsonFile" : "directory-chap_1_proj_5-1c4314bd00c086a00745.json",
+					"jsonFile" : "directory-chap_1_proj_5-Debug-1c4314bd00c086a00745.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -105,7 +106,7 @@
 				},
 				{
 					"build" : "chap_1_proj_6",
-					"jsonFile" : "directory-chap_1_proj_6-0f1e809f514995f60524.json",
+					"jsonFile" : "directory-chap_1_proj_6-Debug-0f1e809f514995f60524.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -116,7 +117,7 @@
 				},
 				{
 					"build" : "chap_2_proj_1",
-					"jsonFile" : "directory-chap_2_proj_1-c79740a7095e708e335e.json",
+					"jsonFile" : "directory-chap_2_proj_1-Debug-c79740a7095e708e335e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -127,7 +128,7 @@
 				},
 				{
 					"build" : "chap_2_proj_2",
-					"jsonFile" : "directory-chap_2_proj_2-6bcc3af7b6a8f9de889e.json",
+					"jsonFile" : "directory-chap_2_proj_2-Debug-6bcc3af7b6a8f9de889e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -138,7 +139,7 @@
 				},
 				{
 					"build" : "chap_3_proj_1",
-					"jsonFile" : "directory-chap_3_proj_1-a9a30acc6009d75169ad.json",
+					"jsonFile" : "directory-chap_3_proj_1-Debug-a9a30acc6009d75169ad.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -149,7 +150,7 @@
 				},
 				{
 					"build" : "chap_3_proj_2",
-					"jsonFile" : "directory-chap_3_proj_2-a0d85f5319b45cf22f20.json",
+					"jsonFile" : "directory-chap_3_proj_2-Debug-a0d85f5319b45cf22f20.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -160,7 +161,7 @@
 				},
 				{
 					"build" : "chap_3_proj_3",
-					"jsonFile" : "directory-chap_3_proj_3-681e350a3a15ddcbeb2b.json",
+					"jsonFile" : "directory-chap_3_proj_3-Debug-681e350a3a15ddcbeb2b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -171,7 +172,7 @@
 				},
 				{
 					"build" : "chap_3_proj_4",
-					"jsonFile" : "directory-chap_3_proj_4-757882631e4467584e74.json",
+					"jsonFile" : "directory-chap_3_proj_4-Debug-757882631e4467584e74.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -182,7 +183,7 @@
 				},
 				{
 					"build" : "chap_3_proj_5",
-					"jsonFile" : "directory-chap_3_proj_5-9e3b830808990c41acc3.json",
+					"jsonFile" : "directory-chap_3_proj_5-Debug-9e3b830808990c41acc3.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -193,7 +194,7 @@
 				},
 				{
 					"build" : "chap_3_proj_6",
-					"jsonFile" : "directory-chap_3_proj_6-68e5e31c28ec52eed016.json",
+					"jsonFile" : "directory-chap_3_proj_6-Debug-68e5e31c28ec52eed016.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -204,7 +205,7 @@
 				},
 				{
 					"build" : "chap_3_proj_7",
-					"jsonFile" : "directory-chap_3_proj_7-b69a8d7a9c678d445709.json",
+					"jsonFile" : "directory-chap_3_proj_7-Debug-b69a8d7a9c678d445709.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -215,7 +216,7 @@
 				},
 				{
 					"build" : "chap_4_proj_1",
-					"jsonFile" : "directory-chap_4_proj_1-0045fe674ea1bae093b9.json",
+					"jsonFile" : "directory-chap_4_proj_1-Debug-0045fe674ea1bae093b9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -226,7 +227,7 @@
 				},
 				{
 					"build" : "chap_4_proj_2",
-					"jsonFile" : "directory-chap_4_proj_2-8beccc45a7c8349b843a.json",
+					"jsonFile" : "directory-chap_4_proj_2-Debug-8beccc45a7c8349b843a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -237,7 +238,7 @@
 				},
 				{
 					"build" : "chap_4_proj_3",
-					"jsonFile" : "directory-chap_4_proj_3-6279e9c99548e1ea10ba.json",
+					"jsonFile" : "directory-chap_4_proj_3-Debug-6279e9c99548e1ea10ba.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -248,7 +249,7 @@
 				},
 				{
 					"build" : "chap_4_proj_4",
-					"jsonFile" : "directory-chap_4_proj_4-447bf604175712bd2e9b.json",
+					"jsonFile" : "directory-chap_4_proj_4-Debug-447bf604175712bd2e9b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -259,7 +260,7 @@
 				},
 				{
 					"build" : "chap_4_proj_5",
-					"jsonFile" : "directory-chap_4_proj_5-d2aac4bd33faaee62b95.json",
+					"jsonFile" : "directory-chap_4_proj_5-Debug-d2aac4bd33faaee62b95.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -270,7 +271,7 @@
 				},
 				{
 					"build" : "chap_4_proj_6",
-					"jsonFile" : "directory-chap_4_proj_6-6bfc3f64219ae39275f4.json",
+					"jsonFile" : "directory-chap_4_proj_6-Debug-6bfc3f64219ae39275f4.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -281,7 +282,7 @@
 				},
 				{
 					"build" : "chap_4_proj_7",
-					"jsonFile" : "directory-chap_4_proj_7-e2ca53286680e5ff5d3c.json",
+					"jsonFile" : "directory-chap_4_proj_7-Debug-e2ca53286680e5ff5d3c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -292,7 +293,7 @@
 				},
 				{
 					"build" : "chap_4_proj_8",
-					"jsonFile" : "directory-chap_4_proj_8-34eff12c249e1df8e624.json",
+					"jsonFile" : "directory-chap_4_proj_8-Debug-34eff12c249e1df8e624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -303,7 +304,7 @@
 				},
 				{
 					"build" : "chap_4_proj_9",
-					"jsonFile" : "directory-chap_4_proj_9-adf41332df058576ad54.json",
+					"jsonFile" : "directory-chap_4_proj_9-Debug-adf41332df058576ad54.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -314,7 +315,7 @@
 				},
 				{
 					"build" : "chap_4_proj_10",
-					"jsonFile" : "directory-chap_4_proj_10-369ab4b3c8d3d952411f.json",
+					"jsonFile" : "directory-chap_4_proj_10-Debug-369ab4b3c8d3d952411f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -324,8 +325,19 @@
 					"source" : "chap_4_proj_10"
 				},
 				{
+					"build" : "chap_5_proj_1",
+					"jsonFile" : "directory-chap_5_proj_1-Debug-2abadf21aecc31e0205d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "chap_5_proj_1"
+				},
+				{
 					"build" : "lib/calculator",
-					"jsonFile" : "directory-lib.calculator-622ab34c09ec1acfdd09.json",
+					"jsonFile" : "directory-lib.calculator-Debug-622ab34c09ec1acfdd09.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -340,7 +352,7 @@
 				},
 				{
 					"build" : "lib/ihm",
-					"jsonFile" : "directory-lib.ihm-9cc9abfa4772807bf992.json",
+					"jsonFile" : "directory-lib.ihm-Debug-9cc9abfa4772807bf992.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
@@ -354,7 +366,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -387,7 +399,8 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28
 					],
 					"name" : "cppBook",
 					"targetIndexes" : 
@@ -402,22 +415,22 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "chap_4_proj_10_lesson::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-chap_4_proj_10_lesson-479e1c4fa9921367926d.json",
-					"name" : "chap_4_proj_10_lesson",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 26,
-					"id" : "lib_calculator::@37fc45b43a3af13d1029",
-					"jsonFile" : "target-lib_calculator-f36155606c58c8d93042.json",
-					"name" : "lib_calculator",
+					"id" : "chap_3_proj_7_lesson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chap_3_proj_7_lesson-Debug-72ac61d48d3bb60dc37d.json",
+					"name" : "chap_3_proj_7_lesson",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 27,
+					"id" : "lib_calculator::@37fc45b43a3af13d1029",
+					"jsonFile" : "target-lib_calculator-Debug-879606626c7b9aa4e5b5.json",
+					"name" : "lib_calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
 					"id" : "lib_ihm::@d4042f03e27dc3eb1bdd",
-					"jsonFile" : "target-lib_ihm-402e8177320868694387.json",
+					"jsonFile" : "target-lib_ihm-Debug-e4485040cbba92d77de7.json",
 					"name" : "lib_ihm",
 					"projectIndex" : 0
 				}

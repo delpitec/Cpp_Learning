@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/ihm/liblib_ihm.a"
+			"path" : "chap_3_proj_7_lesson"
 		}
 	],
 	"backtrace" : 1,
@@ -11,12 +10,12 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"target_include_directories"
 		],
 		"files" : 
 		[
-			"lib/ihm/CMakeLists.txt"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 2,
+				"line" : 189,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 195,
 				"parent" : 0
 			}
 		]
@@ -40,11 +39,17 @@
 	"compileGroups" : 
 	[
 		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/rafaeldelpino/Desktop/CppLearning/lib/ihm/inc"
+					"path" : "/home/rafaeldelpino/Desktop/CppLearning/chap_3_proj_7/inc"
 				}
 			],
 			"language" : "CXX",
@@ -54,13 +59,28 @@
 			]
 		}
 	],
-	"id" : "lib_ihm::@d4042f03e27dc3eb1bdd",
-	"name" : "lib_ihm",
-	"nameOnDisk" : "liblib_ihm.a",
+	"id" : "chap_3_proj_7_lesson::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "chap_3_proj_7_lesson",
+	"nameOnDisk" : "chap_3_proj_7_lesson",
 	"paths" : 
 	{
-		"build" : "lib/ihm",
-		"source" : "lib/ihm"
+		"build" : ".",
+		"source" : "."
 	},
 	"sourceGroups" : 
 	[
@@ -77,9 +97,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lib/ihm/src/input.cpp",
+			"path" : "chap_3_proj_7/src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

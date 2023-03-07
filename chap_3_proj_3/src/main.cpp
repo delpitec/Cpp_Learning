@@ -3,7 +3,11 @@
 /* Chapter 3 | Project 3                                                                          */
 /* Author: Rafael Del Pino                                                                        */
 /*                                                                                                */
-/* Bla bla bla...                                                                                 */
+/* Improve the previous calculator (chap_3_proj_2) by making it also present the estimated item   */
+/* price calculator 1 and 2 years after the time of calculation. The increase in cost in one year */
+/* is estimated as the path rate multiplied by the price at the beginning of the year. Define a   */
+/* second function to determine the cost of an item over a specified number of years, given the item's current price and inflation rate 
+as arguments.                                                                                 */
 /*                                                                                                */
 /*------------------------------------------------------------------------------------------------*/
 #include "main.h"

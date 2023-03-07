@@ -12,15 +12,12 @@
 /*------------------------------------------------------------------------------------------------*/
 #include "main.h"
 
-
-#include "main.h"
-
 int main(){
     
     double oldPrice = 0.0;
     double newPrice = 0.0;
     int percent = 0;
-    string continueAnswer = "";
+    std::string continueAnswer = "";
 
     do{    
         std::cout << "Type old price (R$): ";

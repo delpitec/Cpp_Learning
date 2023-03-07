@@ -26,6 +26,7 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_4_proj_7)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_4_proj_8)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_4_proj_9)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_4_proj_10)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/chap_5_proj_1)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib/calculator)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib/ihm)
 
@@ -55,6 +56,7 @@ set (LESSON_ID_LIST
     ${CHAP_4_PROJ_8_LESSON_NAME}
     ${CHAP_4_PROJ_9_LESSON_NAME}
     ${CHAP_4_PROJ_10_LESSON_NAME}
+    ${CHAP_5_PROJ_1_LESSON_NAME}
 )
 
 # Check if cache variable that stores project identification is defined 
@@ -176,6 +178,10 @@ elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_4_PROJ_9_LESSON_NAME})
 elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_4_PROJ_10_LESSON_NAME})
     set (LESSON_SOURCE_FILES ${CHAP_4_PROJ_10_LESSON_SOURCE_FILES})
     set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_4_PROJ_10_LESSON_INCLUDE_DIRECTORY_PATH})
+    set (LESSON_LIBS lib_calculator lib_ihm)
+elseif ($CACHE{LESSON_ID} STREQUAL ${CHAP_5_PROJ_1_LESSON_NAME})
+    set (LESSON_SOURCE_FILES ${CHAP_5_PROJ_1_LESSON_SOURCE_FILES})
+    set (LESSON_INCLUDE_DIRECTORY_PATH ${CHAP_5_PROJ_1_LESSON_INCLUDE_DIRECTORY_PATH})
     set (LESSON_LIBS lib_calculator lib_ihm)
 endif()
 

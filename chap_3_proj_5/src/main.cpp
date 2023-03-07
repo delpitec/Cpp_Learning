@@ -23,6 +23,7 @@ int main()
     double height = 0.0;
     double weight = 0.0;
     unsigned int age = 0;
+    std::string continueAnswer = "";
 
     double hat = 0.0;
     double coat = 0.0;
