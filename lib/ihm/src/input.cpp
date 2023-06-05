@@ -54,5 +54,22 @@ namespace ihm{
                 return false;
             }
         }
+
+        unsigned int ReadUntilSizeOrEndChar(std::string requestMessage, char *array, unsigned int maxMessageSize, char endMessageCharacter){
+            char input = 0;
+            unsigned int ret = 0;
+            std::cout << requestMessage;
+            for(unsigned int i = 0; i < maxMessageSize; i++){
+                std::cin >> input;
+                if(input == endMessageCharacter){
+                    ret = i;
+                    break;
+                }
+                else{
+                    array[i] = input;
+                }
+            }
+            return ret;
+        }
     }
 }

@@ -12,11 +12,16 @@
 /*------------------------------------------------------------------------------------------------*/
 #include "main.h"
 
+double InflationRate(double oldPrice, double newPrice){
+    int ret = ((newPrice - oldPrice) / oldPrice)*(100);
+    return ret;
+}
+
 int main(){
     
     double oldPrice = 0.0;
     double newPrice = 0.0;
-    int percent = 0;
+    double percent = 0;
     std::string continueAnswer = "";
 
     do{    
@@ -25,7 +30,7 @@ int main(){
         std::cout << "Type new price (R$): ";
         std::cin >> newPrice;
         
-        percent = ((newPrice - oldPrice) / oldPrice)*(100);
+        percent = InflationRate(oldPrice, newPrice);
         
         std::cout << "Inflation: " << percent << "%" << std::endl;
     }while(std::cout << "Calculate again? (yes/no) ", 

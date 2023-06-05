@@ -13,10 +13,10 @@ void FillRainData(int rainData[][2], unsigned int currentMonthIndex){
          i = 11;
       }
       
-      printf("Type %s average rain quantity (mm): ", months[i].c_str());
+      printf("Type %s average rainfall quantity (mm): ", months[i].c_str());
       cin >> rainData[i][0];
       
-      printf("Type %s real rain quantity (mm): ", months[i].c_str());
+      printf("Type %s real rainfall quantity (mm): ", months[i].c_str());
       cin >> rainData[i][1];
 
       FilledMonths++;
@@ -44,7 +44,7 @@ void PrintRainDataTable(int rainData[][2], unsigned int currentMonthIndex){
       PrintedMonths++;
    }
 
-   printf("--------+---------+------+-------------\n");
+   printf("--------+---------+------+-------------\n\n");
 
 }
 
@@ -75,4 +75,7 @@ void PrintRainDataChart(int rainData[][2], unsigned int currentMonthIndex){
       
       PrintedMonths++;
    }
+
+   printf("\n");
+
 }

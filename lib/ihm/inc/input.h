@@ -8,6 +8,8 @@ namespace ihm
         void ReadOnlyPositive(std::string requestMessage, double& value);
         void ReadOnlyPositive(std::string requestMessage, int& value);
         void ReadOnlyRange(std::string requestMessage, int& value, int minValue, int maxValue);
-        bool ReadStringAndConvertToBoolean(std::string requestMessage, std::string handlerTrue, std::string handlerFalse); 
+        bool ReadStringAndConvertToBoolean(std::string requestMessage, std::string handlerTrue, std::string handlerFalse);
+        unsigned int ReadUntilSizeOrEndChar(std::string requestMessage, char *array, unsigned int maxMessageSize, char endMessageCharacter);
+
     }
 }

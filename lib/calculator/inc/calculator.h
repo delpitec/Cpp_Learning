@@ -25,6 +25,7 @@ namespace calculator{
     double Average(double n1, double n2, double n3, double n4);
     double AverageDeviation(double avg, double n1, double n2, double n3, double n4);
     double StandardDeviation(double avg, double n1, double n2, double n3, double n4);
+    double StandardDeviation(double array[], int arrayFillment);
     void Time24hTo12h(unsigned int& hour, unsigned int& min, char& period);
 
 }

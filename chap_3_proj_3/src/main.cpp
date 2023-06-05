@@ -7,13 +7,13 @@
 /* price calculator 1 and 2 years after the time of calculation. The increase in cost in one year */
 /* is estimated as the path rate multiplied by the price at the beginning of the year. Define a   */
 /* second function to determine the cost of an item over a specified number of years, given the item's current price and inflation rate 
-as arguments.                                                                                 */
+as arguments.                                                                                     */
 /*                                                                                                */
 /*------------------------------------------------------------------------------------------------*/
 #include "main.h"
 
 // Copied and adapted from chap_2_proj_1 example 
-double EstimateValueAccordingToInflation(double currentValue, int inflationRate, int estimateYears){
+double EstimateValueAccordingToInflation(double currentValue, double inflationRate, int estimateYears){
     double estimateItemValue = currentValue;
 
     for (int i = 0; i < estimateYears; i++){
@@ -23,32 +23,33 @@ double EstimateValueAccordingToInflation(double currentValue, int inflationRate,
     return estimateItemValue;
 }
 
+int InflationRate(double oldPrice, double newPrice){
+    int ret = ((newPrice - oldPrice) / oldPrice)*(100);
+    return ret;
+}
+
 int main(){
     
     double oldPrice = 0.0;
     double newPrice = 0.0;
-    double estimatedPrice = 0.0;
-    int percent = 0;
-    int estimateYears = 0;
+    double percent = 0;
     std::string continueAnswer = "";
-      
-    do{
+
+    do{    
         std::cout << "Type old price (R$): ";
         std::cin >> oldPrice;
         std::cout << "Type new price (R$): ";
         std::cin >> newPrice;
-        printf("Type how many years from now should the estimate be: ");
-        std::cin >> estimateYears; 
-    
-        percent = ((newPrice - oldPrice) / oldPrice)*(100);
         
-        estimatedPrice = EstimateValueAccordingToInflation(oldPrice, percent, estimateYears);
+        percent = InflationRate(oldPrice, newPrice);
 
-        printf("Estimate value of: R$%.2f \n", estimatedPrice);
-
+        printf("Inflation: %.1f%%\nEstimate value (1st year): R$%.2f\nEstimate value (2nd year): R$%.2f\n", 
+                percent,
+                EstimateValueAccordingToInflation(newPrice, percent, 1),
+                EstimateValueAccordingToInflation(newPrice, percent, 2));
     }while(std::cout << "Calculate again? (yes/no) ", 
-           std::cin >> continueAnswer, 
-           continueAnswer == "yes");
-    
+            std::cin >> continueAnswer, 
+            continueAnswer == "yes");
+
     return 0;
 }

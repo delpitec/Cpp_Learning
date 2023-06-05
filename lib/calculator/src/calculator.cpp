@@ -186,6 +186,25 @@ namespace calculator{
         return sqrt((pow(n1-avg,2) + pow(n2-avg,2) + pow(n3-avg,2) + pow(n4-avg,2)) /4.0);
     }
 
+    /// @brief It returns the standard deviatoon value from array input values
+    /// @param array Array of double values
+    /// @param arrayFillment Values amount inside array[]
+    /// @return Standard deviation value from array[] values
+    double StandardDeviation(double array[], int arrayFillment){
+        double average = 0.0;
+        double sum = 0.0;
+        
+        for(int i = 0; i < arrayFillment; i++){
+            average = average + array[i] / arrayFillment;
+        }
+        
+        for (int i = 0; i < arrayFillment; i++){
+            sum += pow(array[i] - average,2);
+        }
+        
+        return sqrt(sum/arrayFillment);
+    }
+
     /// @brief Convert 24h time format to 12h time format 
     /// @param hour Pointer to hour that will be convert to 12h time format
     /// @param min Pointer to minute that will be convert to 12h time format
